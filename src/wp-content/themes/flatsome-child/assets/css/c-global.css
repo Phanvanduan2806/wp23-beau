@@ -1,0 +1,51 @@
+:root {
+  --main-font: "Inter", sans-serif;
+}
+
+body {
+  font-family: var(--main-font);
+  font-style: normal;
+  font-size: 16px;
+}
+
+.nav>li>a {
+  font-weight: 500;
+  font-style: normal;
+  font-family: var(--main-font);
+  font-size: 16px;
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--main-font);
+}
+
+/* breadcrumb */
+.breadcrumb-item {
+  color: #B6B6B6;
+}
+
+/* c-title*/
+.c-title,
+.c-title .section-title,
+.c-title span {
+  border: none;
+  margin-bottom: unset;
+}
+
+.c-title span,
+.c-title {
+  color: #fff;
+  font-size: 36px;
+  font-weight: 700;
+  margin-right: unset;
+}

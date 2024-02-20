@@ -1,0 +1,98 @@
+/*==========  Non-Mobile First Method  ==========*/
+@media (max-width:1260px) {
+    .c-gioi-thieu .thanh-lap {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {}
+
+@media (min-width: 850px) {
+    .c-footer .row .col {
+        padding-bottom: unset;
+    }
+
+    .c-home-3-baiviet .row_post .col:nth-child(1) .post-item:nth-child(3) {
+        flex-basis: 100% !important;
+        max-width: 100% !important;
+    }
+
+    .c-home-3-baiviet .row_post .col:nth-child(2) .post-item:nth-child(1) {
+        flex-basis: 100% !important;
+        max-width: 100% !important;
+    }
+
+    .header-button .icon {
+        width: 60px;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header-button .icon i {
+        font-size: 2.2em;
+
+    }
+
+}
+
+@media (max-width: 850px) {
+    .c-footer-bottom .row .col {
+        max-width: 100% !important;
+        flex-basis: 100% !important;
+    }
+
+    .c-top-single .heading h1 {
+        font-size: 42px !important;
+    }
+
+    .c-cate-du-an .heading h1 {
+        font-size: 42px;
+    }
+
+    .c-banner h1 {
+        font-size: 42px;
+    }
+
+    h2 {
+        font-size: 24px !important;
+    }
+
+    .c-home-6 .icon-box-img {
+        width: 50px !important;
+    }
+
+    .c-banner .heading h2 {
+        font-size: 42px !important;
+    }
+
+    .c-gioi-thieu .row-gioi-thieu h2 {
+        font-size: 50px !important;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+    .c-footer-bottom .row {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .c-footer-bottom p {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {}
